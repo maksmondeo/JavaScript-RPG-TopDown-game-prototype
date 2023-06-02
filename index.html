@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="checkboxes">
+        <h1>E - Inventory</h1>
+        <h1>R - Equipment</h1>
+        <label><input type="checkbox" class="debug"><span> Debug</span></label><br>
+    </div>
+    <div class="level">Level 1</div>
+    <div class="walka">
+        <div class="dmg"></div>
+        <div class="postac">
+            <div class="postacsprite pixel-art"></div>
+        </div>
+        <div class="zyciewroga">
+            <div class="zycie"></div>
+        </div>
+        <div class="zycietwoje">
+            <div class="zycie2"></div>
+        </div>
+        <div class="wrogwalka">
+            <div class="slime pixel-art"></div>
+        </div>
+        <div class="progress">
+            <div class="wskaznik">
+
+            </div>
+            <div class="progresskolor1"></div>
+            <div class="progresskolor2"></div>
+            <div class="progresskolor3"></div>
+        </div>
+    </div>
+    <div class="eq">
+        <h1>Inventory</h1>
+        <div class="slot slotItem" idSlotu="0" over="0">
+            <div item="1" listener="0" class="item item1 pixel-art"></div>
+        </div>
+        <div class="slot slotItem" idSlotu="1" over="0">
+            <div item="2" listener="0" zalozony="0" class="item item2 pixel-art"></div>
+        </div>
+        <div class="slot slotItem" idSlotu="2" over="0">
+            <div item="1" listener="0" class="item item1 pixel-art"></div>
+        </div>
+        <div class="slot slotItem" idSlotu="3" over="0">
+            <div item="1" listener="0" class="item item1 pixel-art"></div>w
+        </div>
+        <div class="slot slotItem" idSlotu="4" over="0"></div>
+        <div class="slot slotItem" idSlotu="5" over="0"></div>
+        <div class="slot slotItem" idSlotu="6" over="0"></div>
+        <div class="slot slotItem" idSlotu="7" over="0"></div>
+        <div class="slot slotItem" idSlotu="8" over="0"></div>
+        <div class="slot slotItem" idSlotu="9" over="0"></div>
+        <div class="slot slotItem" idSlotu="10" over="0"></div>
+        <div class="slot slotItem" idSlotu="11" over="0"></div>
+        <div class="slot slotItem" idSlotu="13" over="0"></div>
+        <div class="slot slotItem" idSlotu="12" over="0"></div>
+        <div class="slot slotItem" idSlotu="14" over="0">
+            <div item="3" listener="0" zalozony="0" class="item item3 pixel-art"></div>
+        </div>
+    </div>
+    <div class="inv">
+        <h1>Equipment</h1>
+        <div class="slot" idSlotu="15" over="0"></div>     <!-- Hełm -->
+        <div class="slot" idSlotu="16" over="0"></div>     <!-- Kolczyki -->
+        <div class="slot" idSlotu="17" over="0"></div>     <!-- Broń -->
+        <div class="slot" idSlotu="18" over="0"></div>     <!-- Zbroja -->
+        <div class="slot" idSlotu="19" over="0"></div>     <!-- Pierścionek -->
+        <div class="slot" idSlotu="20" over="0"></div>     <!-- Spodnie -->
+        <div class="slot" idSlotu="21" over="0"></div>     <!-- Buty -->
+    </div>
+    <div class="ramka">
+        <div class="powiadomienie"><a></a></div>
+        <div class="camera">
+            <div class="map0 pixel-art">
+                <div class="character" facing="down" walking="true">
+                    <div class="character_spritesheet pixel-art"></div>
+                </div>
+                <div class="wrog wrog1">
+                    <div class="slime"></div>
+                </div>
+                <div class="wrog wrog2">
+                    <div class="slime"></div>
+                </div>
+                <div class="wrog wrog3">
+                    <div class="slime"></div>
+                </div>
+                <div class="map0nad pixel-art"></div>
+            </div>
+        </div>
+    </div>
+    <div class="paski">
+        <div class="hp"><div class="hpPasek"></div></div>
+        <div class="xp"><div class="xpPasek"></div></div>
+    </div>
+    <div class="paski2">
+        <div class="hpInfo">HP: 50/100</div>
+        <div class="xpInfo">XP: 0/100</div>
+    </div>
+    <div class="paski3">
+        <div class="x"></div>
+        <div class="y"></div>
+    </div>
+    <script src="script.js"></script>
+    <div class="opis opis1"><a style="font-size: 50px; color: gold;">Health potion</a><br><a>Double click to restore </a><a style="color:lime">20</a><a> health</a></div>
+    <div class="opis opis2"><a style="font-size: 50px; color: grey;">Iron helmet</a><br><a style="color: red;">+75</a><a> health</a></div>
+    <div class="opis opis3"><a style="font-size: 40px; color: aqua;">Magic ring</a><br><a style="color: purple;">+20</a><a> power</a></div>
+</body>
+</html>
