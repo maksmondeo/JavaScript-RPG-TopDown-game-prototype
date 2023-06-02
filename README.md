@@ -12,15 +12,11 @@ _Image sources:_
 
 maps (made by myself via these assets)
 https://butterymilk.itch.io/tiny-wonder-forest
-
 tlo.png 
 https://pl.pinterest.com/pin/390687336425470929/
-
 items 
 https://alexs-assets.itch.io/16x16-rpg-item-pack
-
 slime
 https://game-endeavor.itch.io/mystic-woods
-
 postac.png
 https://co.pinterest.com/pin/pokemons-sprite--56224695339523155/
