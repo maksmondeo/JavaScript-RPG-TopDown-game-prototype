@@ -8,10 +8,7 @@ While creating this masterpiece, I didn't expect to publish it anywhere. As a re
 
 
 
-.
-.
-.
-Image sources: 
+_Image sources: _
 
 maps (made by myself via these assets)
 https://butterymilk.itch.io/tiny-wonder-forest
