@@ -2,8 +2,10 @@
 
 While creating this masterpiece, I didn't expect to publish it anywhere. As a result, some variables in the code are in Polish, but I've added comments to help understand it.
 
-SOURCES:
-postac.png 
+![3](https://github.com/maksmondeo/JS-GAME-WITHOUT-CANVAS/assets/94876114/97f9673f-95b3-485c-8f9c-de4e9d513a18)
+
+SOURCES: 
+postac.png
 https://co.pinterest.com/pin/pokemons-sprite--56224695339523155/
 
 tlo.png 
