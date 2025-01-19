@@ -1,4 +1,4 @@
-# JS-GAME-WITHOUT-CANVAS
+# JavaScript RPG TopDown game prototype
 **LIVE AT: https://maksmondeo.github.io/JS-GAME-WITHOUT-CANVAS/**
 
 While creating this masterpiece, I didn't expect to publish it anywhere. As a result, some variables in the code are in Polish, but I've added comments to help understand it.
